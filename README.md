@@ -1,10 +1,14 @@
 # dotfiles
 
+**Important!:** clone this repo using
+```
+git clone --recurse-submodules https://github.com/EthernalRaine/dotfiles
+```
+
 collection of configs for my Linux installs
 
 ## paths (and extras)
 awesome -> ~/.config/awesome
-awesome-wm-widgets -> git clone https://github.com/streetturtle/awesome-wm-widgets ~/.config/awesome-wm-widgets
 
 ## builds
 ### main workstation
