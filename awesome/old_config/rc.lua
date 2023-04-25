@@ -6,7 +6,7 @@
 pcall(require, "luarocks.loader")
 
 -- awesome-widgets
-local batteryarc_widget = require("awesome-wm-widgets.batteryarc-widget.batteryarc")
+--local batteryarc_widget = require("awesome-wm-widgets.batteryarc-widget.batteryarc")
 local spotify_widget = require("awesome-wm-widgets.spotify-widget.spotify")
 local volume_widget = require("awesome-wm-widgets.volume-widget.volume")
 -- Standard awesome library
@@ -629,3 +629,4 @@ end)
 client.connect_signal("focus", function(c) c.border_color = beautiful.border_focus end)
 client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_normal end)
 -- }}}
+naughty.config.defaults['icon_size'] = 50
