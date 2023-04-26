@@ -8,7 +8,13 @@ git clone --recurse-submodules https://github.com/EthernalRaine/dotfiles
 collection of configs for my Linux installs
 
 ## paths (and extras)
-awesome -> ~/.config/awesome
+autorun  -> ~/.config/autorun
+awesome  -> ~/.config/awesome
+nitrogen -> ~/.config/nitrogen
+rofi     -> ~/.config/rofi
+
+misc theme -> /usr/share/themes
+scripts -> /usr/local/bin
 
 ## builds
 ### main workstation
