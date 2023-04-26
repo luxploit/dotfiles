@@ -1,0 +1,9 @@
+#!/bin/bash
+temp_file="/tmp/screenshot.png"
+flameshot gui -r > $temp_file
+if [[ $(file --mime-type -b $temp_file) != "image/png" ]]; then
+        rm $temp_file
+fi
+image_url=$(curl -s -F "secret="  -F "file=@/tmp/screenshot.png" "https://api.monarchupload.cc/api/v2/upload")
+echo -n $image_url | xclip -sel c
+rm $temp_file
