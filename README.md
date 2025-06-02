@@ -1,4 +1,4 @@
-# dotfiles
+# [luxploit](https://luxploit.net)/[dotfiles](https://github.com/luxploit/dotfiles)
 
 **Important!:** clone this repo using
 ```
